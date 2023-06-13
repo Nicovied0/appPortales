@@ -1,1 +1,9 @@
-<p>portales works!</p>
+<div>
+  <div *ngFor="let item of jsonData">
+    <h3></h3>
+    <img src="{{ item.imagen }}" style="height: 5rem" />
+    <h2>{{ item.nombre }}</h2>
+    <h3>descripcion</h3>
+  </div>
+  <button (click)="portalesfn()">asx</button>
+</div>

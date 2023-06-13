@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Linkedin",
+    "url": "https://www.linkedin.com/jobs/",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+  },
+  {
+    "nombre": "Computrabajo",
+    "url": "https://ar.computrabajo.com/",
+    "imagen": "https://candidato.ar.computrabajo.com/c/img/logos/logoct.svg?v=3.54"
+  },
+  {
+    "nombre": "Chumijobs",
+    "url": "https://www.chumijobs.com/search-job/",
+    "imagen": "https://www.chumijobs.com/wp-content/uploads/2023/02/cropped-Chumi-it-logo-13-1-1.png"
+  }
+]

@@ -6,6 +6,8 @@ import { NavComponent } from './nav/nav.component';
 import { BodyComponentComponent } from './body-component/body-component.component';
 import { PortalesComponent } from './portales/portales.component';
 import { FooterComponent } from './footer/footer.component';
+import { PortalesService } from './Service/Portales.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,11 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
 
   ],
-  providers: [],
+  providers: [PortalesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
