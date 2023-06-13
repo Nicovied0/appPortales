@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appPortales';
+  darkMode = false;
+
+  changeStyle() {
+    this.darkMode = !this.darkMode;
+    console.log('Modo oscuro:', this.darkMode);
+  }
 }
