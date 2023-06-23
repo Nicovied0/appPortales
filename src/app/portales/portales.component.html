@@ -1,6 +1,6 @@
 <div class="contenedor">
   <div *ngFor="let item of jsonData" class="carta">
-    <div class="carta2">
+    <div class="carta2" [@fade]>
       <a href="{{ item.url }}" target="_blank">
         <img src="{{ item.imagen }}" style="height: 5rem" />
         <div class="text">

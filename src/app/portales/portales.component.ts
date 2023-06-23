@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PortalesService } from '../Service/Portales.service';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 interface Portal {
   url: string;
@@ -10,7 +11,15 @@ interface Portal {
 @Component({
   selector: 'app-portales',
   templateUrl: './portales.component.html',
-  styleUrls: ['./portales.component.css']
+  styleUrls: ['./portales.component.css'],
+  animations: [
+    trigger('fade', [
+      state('void', style({ opacity: 0 })),
+      transition(':enter, :leave', [
+        animate(300)
+      ])
+    ])
+  ]
 })
 export class PortalesComponent implements OnInit {
   jsonData: any[] = [];
