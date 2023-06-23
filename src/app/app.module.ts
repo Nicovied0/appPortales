@@ -8,6 +8,7 @@ import { PortalesComponent } from './portales/portales.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortalesService } from './Service/Portales.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     BodyComponentComponent,
     PortalesComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

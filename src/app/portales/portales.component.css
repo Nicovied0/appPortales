@@ -3,10 +3,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 0 2rem 0;
 }
 
 .carta {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 20rem;
   justify-content: center;
@@ -21,7 +23,7 @@
 .carta2 {
   display: flex;
   align-items: center;
-
+  flex-direction: column;
 
 }
 
@@ -32,4 +34,10 @@
   align-items: center;
   align-content: center;
 
+}
+
+
+.seleccionado {
+  background-color: green;
+  color: white;
 }

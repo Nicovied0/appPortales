@@ -18,10 +18,31 @@
     "nombre": "Bumeran",
     "url": "https://www.bumeran.com.ar/",
     "imagen": "https://www.bumeran.com.ar/candidate/static/media/bumeran.296e6bc2.svg"
+  }, {
+    "nombre": "EducationIT",
+    "url": "https://empleos.educacionit.com/",
+    "imagen": "https://static.educacionit.com/educacionit/assets-dev/imagotype-it-fill-v2-color.svg"
+  }, {
+    "nombre": "GetOnBoard",
+    "url": "https://www.getonbrd.com/applications#",
+    "imagen": "https://startupslatam.com/wp-content/uploads/2020/02/intro-getonboard.jpg"
   },
   {
     "nombre": "InfoJobs",
     "url": "https://www.infojobs.net/candidate/my-infojobs.xhtml",
     "imagen": "https://w7.pngwing.com/pngs/484/110/png-transparent-logo-brand-infojobs-programmer-computer-icons-saved-by-the-bell-blue-text-trademark.png"
+  },
+   {
+    "nombre": "HenryJobs",
+    "url": "https://henryjobseekers.notion.site/f9a326c12bf040d39b2a8d686adf5e9f?v=3bb1922bcdfd43919dee8a58d5247fd5",
+    "imagen": "https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f4bc.svg"
+  },  {
+    "nombre": "Torre",
+    "url": "https://torre.co/es/for-candidates?r=0i0pV3yA",
+    "imagen": "https://www.tecnoempleo.com/logotipos/197231.png?01"
+  },  {
+    "nombre": "Glassdoor",
+    "url": "https://www.glassdoor.com.ar/Job/Home/recentActivity.htm",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgLr-Da796IziB3iki1lKWnRBEYDIHBMfyq1xXvXoBBnHh_TZNUdy1urLsk_7xIE2Dj_Y"
   }
 ]

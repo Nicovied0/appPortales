@@ -5,9 +5,14 @@
         <img src="{{ item.imagen }}" style="height: 5rem" />
         <div class="text">
           <h2>{{ item.nombre }}</h2>
-          <!-- <h3>descripcion</h3> -->
         </div>
       </a>
+      <ng-container *ngIf="item.seleccionado; else seleccionarBoton">
+        <app-button (click)="toggleSeleccionado(item)"  ></app-button>
+      </ng-container>
+      <ng-template #seleccionarBoton>
+        <button (click)="toggleSeleccionado(item)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Portal revisado</button>
+      </ng-template>
     </div>
   </div>
 </div>
